@@ -1,0 +1,18 @@
+☐ Purchased item basket to be displayed.
+☐ All the selected purchase items & subtotals are displayed on the show.ejs page
+☐ Check if item aleady exists
+☐ Subtotal all items to be displayed
+☐ For of loop to list products on finalPurchase.ejs page
+☐ Calculate total of all purchases
+☐ Display the final purchase page (finalPurchase.ejs) & grandtotal with products listed & subtotals
+☐ Produce get of finalPurchase.ejs
+☐ Produce post of finalPurchase.ejs
+☐ Produce page for finalPurchase.ejs
+☐ Add form to finalPurchase.ejs
+☐ Add submit button to this page
+
+
+☐ User clicks the submit button here
+
+/post for
+☐ Display page is shown to the user, your purchase was successful

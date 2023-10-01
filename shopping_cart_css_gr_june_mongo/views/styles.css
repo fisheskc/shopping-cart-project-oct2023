@@ -1,0 +1,176 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color: #d38d0c96;
+}
+
+.container {
+    display: grid;
+    /* minmax: 800px */
+    grid-template-columns: 1fr 2fr; 
+    /* grid-template-rows: 1fr 2fr;  */
+    gap: 20px; 
+    /* justify-items: left; */
+}
+
+#product-name {
+    display: none;
+}
+   
+ol.order-list {
+    font-size: 1.75em !important;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #0b3d26 !important;
+    margin-top: 2em !important;
+    
+}
+
+.box {
+    min-width: 400px;
+    background-color: #fbedd396; 
+    /* box-shadow: black; */
+    padding: 0.5em;
+    border-radius: 8px;
+    /* box-shadow: inset 0 0 6px 4px rgba(130, 16, 16, 0.3); */
+   
+}
+
+button#submit-order {
+    color: #f6e5c6fb;
+    background-color: #890808;
+    height: 2.75em;
+    width: 140px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.25em;
+    border-radius: 8px;
+
+}
+
+button#submit-orderReview {
+    color: #f6e5c6fb;
+    background-color: #890808;
+    height: 2.75em;
+    width: 140px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.25em;
+    border-radius: 8px;
+
+}
+
+.box-br {
+    border: solid 0.3em #b565106d;
+    box-shadow: inset 0 0 6px 4px rgba(211, 145, 52, 0.35); 
+}
+
+.order-id {
+    color:#197248;
+    margin-top: 0.5em; 
+}
+
+#catalogue {
+    /* background-color: #fbedd396;  */
+    /* gap: 10px; */
+    /* max-height: 100%;  */
+    /* width: 400px;  */
+    /* margin: 0px !important; */
+    margin-top: 30px;
+   
+}
+#itemsStore {
+    padding-left: 1.5em;
+}
+
+h1 {
+    color:#197248;  
+    font-size: 2.25em;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    margin-left: 0.75em;
+}
+
+h2 {
+    color:#890808;   
+    font-size: 2em;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    /* margin-left: 0.75em; */
+}
+
+h4 {
+    color: #197248 !important;
+    font-size: 1.75em;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+#order-message h4 {
+    margin-top: 1em;
+    font-size: 0.9em; 
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+li #product-name {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #890808; 
+    width: 79%;  
+    display: inline-block;
+}
+
+ #product-price {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #890808; 
+    /* width: 50%;  */
+    display: inline-block;
+    text-align: right;
+}
+
+#product-quantity {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #890808; 
+    width: 85%;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+#total-price {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    /* margin-left: 0.75em; */
+    color: #890808; 
+    font-size: 1.75em;
+    text-align: left;
+}
+
+li .purchaseItem-name {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: rgb(17, 0, 255); 
+    width: 40%; 
+    display: inline-block;
+}
+
+li .purchaseItem-price {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: rgb(17, 0, 255);  
+    width: 40%; 
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .container {
+        min-width: 320px;
+        margin-right: 0;
+        display: block;
+    }
+
+    .box {
+        min-width: 320px;
+        background-color: #fbedd396; 
+        /* box-shadow: black; */
+        padding: 1em;
+        margin-top: 1em;
+       
+    }
+    .box-br {
+        border: solid 0.3em #b565106d;
+        
+    }
+} 

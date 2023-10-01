@@ -1,0 +1,25 @@
+☐ Display a list of the products for purchasing with an option to select a product
+☐ The user will click on a link to select a purchase
+☐ For the chosen product, display an order page
+☐ Show the product details and ask about the quantity
+☐ The user presses the submit button for the purchase item
+☐ Purchased item is made.
+☐ Purchased item basket to be displayed.
+☐ Display the basket, the subtotal (for specific item)
+☐ User will either choose more items or finalise the order
+☐ If the user is choosing more items, repeat from line 2
+☐ All purchase items will be displayed to the user 
+☐ Subtotals of items (on another page)
+☐ Grand total of purchases
+☐ If finalising the order, user will click to buy the purchases
+☐ Grand total is shown to the user after purchase is submitted
+☐ Is this the only product
+☐ For the chosen product, the user enters a quantity and clicks "Submit Order".
+☐ if new purchaseitem, user to select item for purchase, order_id created(createdDateAt) 
+☐ check if an order id exists (createdDateAt, date)
+☐ if yes, use this order id and add other purchase items to new purchaseitems array
+☐ iterate over the new purchaseitems array and display on the show.ejs page
+☐ if purchaseitems response equals re-direct, on post, create an order (createdCompletedAt date)
+☐ create a grand total of the purchases and display to customer - I possibly need to add more here
+☐ reset the purchases page to blank after final submit button is clicked by the user
+

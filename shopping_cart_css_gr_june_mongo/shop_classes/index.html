@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shopping cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <h1>Shopping cart</h1>
+        <div id="result">   
+                <h4><span id="purchase-item-message"></span></h4>
+         </div> 
+         <div class="container">
+                <div class="box">
+                    <form action="" method="get" id="your-order">
+                        <input type="hidden" name="order-id" value="0" id="order-id">
+                        <ul id="catalogue">
+                        </ul>
+                        <button id="submit-order" type="submit">submit order</button>
+                    </form>
+                </div>
+                <div class="box" id="itemsStore">
+                    <h2>This is your order here</h2> 
+                    <div class="box">
+                        <form action="" method="get" id="order-mess">
+                            <h4 id="order-message"></h4>
+                            <span id="total-price"></span>
+                            <ol class="order-list"></ol>
+                            <button id="submit-orderReview" type="submit">Order review</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>

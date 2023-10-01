@@ -1,0 +1,11 @@
+☐ For the chosen product, the user enters a quantity and clicks "Submit Order".
+☐ User clicks a product link
+☐ User enters a quantity for the product into the input box
+☐ The product's name, quantity and subtotal will be displayed
+☐ How does the user select another product? Provide a link back to the main list
+☐ When the user selects the first purchaseitem, the object id and createdDateAt is created for the order.
+☐ User selects a 2nd purchaseitem, use the aleardy created object id and createdDateAt from the Order schema
+☐ Use if statement for multiple products as in line 7.
+☐ Use the completedAt: 2023-06-23T09:38:27.224Z date when the user clicks the submit button
+☐ The form will be submitted on click of the submit button
+☐ The HTTP request will be made and the purchaseitem details will be save to the DB.
